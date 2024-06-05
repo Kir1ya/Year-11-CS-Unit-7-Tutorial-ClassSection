@@ -57,11 +57,7 @@ public class Student {
     }
 
     public boolean equals(Student student1) {
-        if (firstName.equals(student1.firstName) && lastName.equals(student1.lastName) && age == student1.age && yearLevel == student1.yearLevel) {
-            return true;
-        } else {
-            return false;
-        }
+        return firstName.equals(student1.firstName) && lastName.equals(student1.lastName) && age == student1.age && yearLevel == student1.yearLevel;
     }
 
     @Override
